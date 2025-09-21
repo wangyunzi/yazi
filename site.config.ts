@@ -58,8 +58,11 @@ export default siteConfig({
       pageId: '72a5c9288b614647aae97a5948c1369f'
     },
     {
-      title: 'Contact',
-      pageId: '30e53188162c42328846fccff87c71d0'
+      title: 'Friends',
+      pageId: '2fbf0e299f2f47ee9e0fff3415a44246'
     }
   ]
 })
+
+
+
