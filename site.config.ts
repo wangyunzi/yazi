@@ -17,7 +17,7 @@ export default siteConfig({
   description: '个人日常小记、絮絮叨，偶尔深度上网。',
 
   // social usernames (optional)
-  twitter: '',
+  twitter: 'YunziWang',
   github: 'wangyunzi',
   // linkedin: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
@@ -42,24 +42,24 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
+  pageUrlOverrides: {
+    '/foo': '067dd719a912471ea9a3ac10710e7fdf',
+    '/bar': '0be6efce9daf42688f65c76b89f8eb27'
+  }
   pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: '72a5c9288b614647aae97a5948c1369f'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '30e53188162c42328846fccff87c71d0'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '72a5c9288b614647aae97a5948c1369f'
+    },
+    {
+      title: 'Contact',
+      pageId: '30e53188162c42328846fccff87c71d0'
+    }
+  ]
 })
